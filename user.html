@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <!-- TOP NAVBAR -->
+        <header>
+            <a class="logo" href="/"><img style="width: 50px;" src="img/btc.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="">User</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="main.html">Home</a>
+                <a href="">User</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/mobile.js"></script>
+
+        <!-- subtitle -->
+        <div class="content">
+            <h1 class="justText">Selamat datang Kisah Tegar di Wallet Market.</h1>
+        </div>
+
+        <!-- Wallet -->
+        <div class="content">
+            <center>
+                <div class="boxTitle2">
+                    <h1 class="subTitle">Your Wallet</h1>
+                </div>
+                <div class="bigContainer">
+                    <h1 class="justTextBlack">Est. Nilai Asset(BTC)</h1>
+                    <br>
+                    <img src="img/btc.png" alt="">
+                    <h1 class="justTextBlack">54.8219414919 BTC</h1>
+                </div>
+            </center>
+        </div>
+
+        <!-- Price chart -->
+        <div class="content">
+            <div class="boxTitle">
+                <h1 class="subTitle">Chart View</h1>
+            </div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                {
+                "colorTheme": "light",
+                "dateRange": "1D",
+                "showChart": true,
+                "locale": "id",
+                "largeChartUrl": "",
+                "isTransparent": false,
+                "showSymbolLogo": true,
+                "showFloatingTooltip": false,
+                "width": "100%",
+                "height": "460",
+                "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                "gridLineColor": "rgba(42, 46, 57, 0)",
+                "scaleFontColor": "rgba(120, 123, 134, 1)",
+                "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                "tabs": [
+                {
+                    "title": "Crypto",
+                    "symbols": [
+                    {
+                        "s": "BINANCE:BTCUSDT",
+                        "d": "Bitcoin"
+                    },
+                    {
+                        "s": "CRYPTOCAP:ETH",
+                        "d": "Ethereum"
+                    },
+                    {
+                        "s": "CRYPTOCAP:SOL",
+                        "d": "Solana"
+                    }
+                    ]
+                }
+                ]
+            }
+            </script>
+        </div>
+        <!-- FOOTER -->
+        <footer class="footer-distributed">
+			<div class="footer-left">
+                <img src="img/logo.png" alt="">
+				<h3>Fro<span>Coin</span></h3>
+				<!-- <p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					<a href="#">Blog</a>
+				</p> -->
+				<p class="footer-company-name">Kisah Company © 2022</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Banten</span> Bumi Indah, PasarKemis</p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+6282849141947</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:frocoin@company.com">frocoin@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					asset crypto sangat perlu diperhatikan ketika anda ingin menginvestasikan uang anda. "Do Your Own Risk".
+				</p>
+
+				<div class="footer-icons">
+					<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/kisah-tegar-putra-abdi-b088b91bb"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/kisahtegar"><i class="fa-brands fa-github"></i></a>
+				</div>
+			</div>
+		</footer>
+    </body>
+</html>
